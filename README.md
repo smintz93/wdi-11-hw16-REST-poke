@@ -46,21 +46,27 @@ The app will use RESTful Routes:
 - Index
   - GET `/pokemon`
 <br>
+
 - Show
   - GET `/pokemon/:id`
 <br>
+
 - New
   - GET `/pokemon/new`
 <br>
+
 - Edit
   - GET `/pokemon/:id/edit`
 <br>
+
 - Create
   - POST `/pokemon`
 <br>
+
 - Update
   - PUT `/pokemon/:id`
   <br>
+  
 - Destroy
   - DELETE `/pokemon/:id`
 
