@@ -17,6 +17,13 @@
 		<a href="/pokemon/<%=i%>"><img src="<%= pokemonList[i].img%>"></a>	
 
 
+		<form action="/pokemon/<%=i%>?_method=DELETE" method="POST"> 
+
+			<input type="submit" name="delete">
+
+
+		</form>
+
 
 
 		<a href="/pokemon/<%= i %>/edit">Edit Fruit</a>

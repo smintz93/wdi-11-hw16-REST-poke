@@ -67,6 +67,18 @@ router.post("/", (req, res) => {
 })
 
 
+//D ELETE
+
+
+
+router.delete("/:id", (req, res) => {
+	
+	Pokemon.splice(req.params.id, 1);
+
+	res.redirect("/pokemon")
+
+})
+
 
 
 
