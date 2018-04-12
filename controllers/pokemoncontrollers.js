@@ -58,6 +58,7 @@ router.post("/", (req, res) => {
 		img: req.body.img,
 		type: req.body.type
 
+
 		
 	}
 	
@@ -67,7 +68,7 @@ router.post("/", (req, res) => {
 })
 
 
-//D ELETE
+//DELETE
 
 
 
