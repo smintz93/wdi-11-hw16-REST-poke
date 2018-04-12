@@ -5,7 +5,9 @@
 </head>
 <body>
 
-	<h1>Index</h1>
+	<h1>POKEMON</h1>
+
+	<p><a href="/pokemon/new">Add a Pokemon!</a></p>
 
 	<ul>
 		<% for(let i = 0; i < pokemonList.length; i++) {%>	
@@ -16,6 +18,8 @@
 
 
 
+
+		<a href="/pokemon/<%= i %>/edit">Edit Fruit</a>
 
 		</li>
 
